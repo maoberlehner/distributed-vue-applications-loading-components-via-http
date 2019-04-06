@@ -1,0 +1,54 @@
+@import '~@avalanche/generic-box-sizing-reset';
+@import '~reset-css/sass/reset';
+
+// 1. Usually a larger line height is beneficial
+//    for blocks of text, but we want to have a
+//    rather small line height for our basic UI
+//    elements so we can apply uniform spacings
+//    using margins and paddings. We'll add an
+//    extra CSS class with a larger line height
+//    to apply to blocks of text.
+// 2. A kind of “dirty” white is more pleasing
+//    to the eyes.
+// 3. A kind of “almost black but not quite black”
+//    is also more pleasing to the eyes.
+body {
+  line-height: 1.25; // 1
+  background-color: #f9f9f9; // 2
+  color: #222; // 3
+  font-family: sans-serif;
+}
+
+// 1. Larger font sizes need less line height.
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2; // 1
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.027em;
+}
+
+h2 {
+  font-size: 1.802em;
+}
+
+h3 {
+  font-size: 1.602em;
+}
+
+h4 {
+  font-size: 1.424em;
+}
+
+h5 {
+  font-size: 1.266em;
+}
+
+h6 {
+  font-size: 1.125em;
+}

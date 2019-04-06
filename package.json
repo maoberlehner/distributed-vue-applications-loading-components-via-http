@@ -1,0 +1,39 @@
+{
+  "name": "distributed-vue-applications-loading-components-via-http",
+  "version": "0.1.0",
+  "author": "Markus Oberlehner",
+  "homepage": "https://github.com/maoberlehner/distributed-vue-applications-loading-components-via-http",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@avalanche/generic-box-sizing-reset": "^4.0.0-alpha.5",
+    "@avalanche/object-container": "^4.0.0-alpha.8",
+    "@avalanche/object-vertical-spacing": "^4.0.0-alpha.5",
+    "@avalanche/setting-spacings": "^4.0.0-alpha.6",
+    "@vue/cli-plugin-babel": "^3.5.5",
+    "@vue/cli-service": "^3.5.3",
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "node-sass-magic-importer": "^5.3.1",
+    "reset-css": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "devDependencies": {
+    "@avalanche/eslint-config": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-vue": "^5.2.2"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not ie 10",
+    "not op_mini all"
+  ]
+}
