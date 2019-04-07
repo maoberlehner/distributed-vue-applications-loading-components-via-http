@@ -5,7 +5,9 @@ const STATIC_PORT = 8200;
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, `components`)));
+app.use(express.static(path.resolve(__dirname, `components`), {
+  maxAge: `365d`,
+}));
 
 app.listen(STATIC_PORT);
 
